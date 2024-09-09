@@ -33,8 +33,8 @@ const Navicons = () => {
            </div>
           }
         <IoNotificationsOutline size="20"  />
-          <div className='cursor-pointer relative'>
-        <FiShoppingCart size="20" className='cursor-pointer' onClick={() => setIsCartOpen((prev) => !prev)} />
+          <div className='cursor-pointer relative' onClick={() => setIsCartOpen((prev) => !prev)}>
+        <FiShoppingCart size="20" className='cursor-pointer'  />
           <div className='absolute -top-4 -right-3 w-4 bg-lava rounded-full text-sm text-white flex items-center justify-center'>2</div>
           </div>
         {isCartOpen && <CartModel />}

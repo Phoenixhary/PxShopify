@@ -25,7 +25,7 @@ const ProductImages = () => {
 
         const [index, setIndex] = useState(0)
   return (
-    <div>
+    <div className=''>
         <div className='relative h-[500px]'>
             <Image src={images[index].url}
             alt='' fill sizes='50vw' className='object-cover rounded-md'

@@ -16,7 +16,7 @@ const SearchBar = () => {
 
   return (
       <form onSubmit={handleSearch}
-      className='flex flex-1 justify-between gap-4 bg-gray-100 rounded-xl '>
+      className='flex flex-1 justify-between gap-4 bg-gray-100 rounded-xl'>
           <input className='border-none flex-1 bg-transparent' type="text" placeholder='Search...' name='name' />
           <button>
           <FiSearch className='mx-2' />
