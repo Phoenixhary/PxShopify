@@ -1,3 +1,4 @@
+
 import Filter from '@/components/Filter';
 import ProductList from '@/components/ProductList';
 import Image from 'next/image';
