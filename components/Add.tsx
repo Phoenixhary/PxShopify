@@ -28,7 +28,7 @@ const Add = () => {
               <button className='cursor-pointer text-xl' onClick={()=>handleQuantity("i")}> + </button>
            </div>
           <div 
-          className='text-xs'> Only 4 items left! <br/> Don't miss it
+          className='text-xs'> Only 4 items left! <br/> {"Don't"} miss it
           </div>
         </div>
       <button
