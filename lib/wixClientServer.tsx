@@ -5,7 +5,7 @@ import { cookies } from "next/headers";
 export const wixClientServer = async () => {
 
     
-    let refreshToken;
+    let refreshToken: any;
     
     try {
         const cookieStore = cookies();
