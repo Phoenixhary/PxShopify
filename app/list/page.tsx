@@ -3,7 +3,8 @@ import Filter from '@/components/Filter';
 import ProductList from '@/components/ProductList';
 import { wixClientServer } from '@/lib/wixClientServer';
 import Image from 'next/image';
-import React, { Suspense } from 'react'
+import { Suspense } from 'react';
+// import React, { Suspense } from 'react'
 
 const ListPage = async ({ searchParams }: { searchParams: any }) => {
 
