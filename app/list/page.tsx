@@ -34,7 +34,7 @@ const ListPage = async ({ searchParams }: { searchParams: any }) => {
               } searchParams ={searchParams} />
           </Suspense>
     </div>
-  )
-}
+  );
+};
 
 export default ListPage;

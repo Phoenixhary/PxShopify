@@ -57,7 +57,7 @@ const SinglePage = async ({ params }: {params: { slug: string } }) => {
                 {section.description}
                </p>
                </div>
-              ))
+                ))
               };
 
          </div>
