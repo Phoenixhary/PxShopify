@@ -1,13 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 
-            eslint: {
-                ignoreDuringBuilds: true,
-            },
-            experimental: {
-                workerThreads: false,
-                cpus: 1,
-            },
+                   eslint: {
+                          ignoreDuringBuilds: true,
+                           },
+                  experimental: {
+                        appDir: false,
+                          },
                images: {
                    remotePatterns: [
                        {
