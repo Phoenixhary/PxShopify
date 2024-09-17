@@ -5,11 +5,11 @@ import { cookies } from "next/headers";
 export const wixClientServer = async () => {
 
     
-    let refreshToken: any;
+    let refreshToken;
     
     try {
         const cookieStore = cookies();
-        const refreshToken = JSON.parse(cookieStore.get("refreshToken")?.value || "{}");
+         refreshToken = JSON.parse(cookieStore.get("refreshToken")?.value || "{}");
 } catch (e) {}
 
 
