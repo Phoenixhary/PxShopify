@@ -8,7 +8,7 @@ import { FaCcPaypal } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='mt-24 px-3 py-24 md:px-8 lg:px-16 xl:px-32 bg-gray-100 text-sm'> 
+    <div className='mt-24 px-4 py-24 md:px-8 lg:px-16 xl:px-32 bg-gray-100 text-sm'> 
           {/* TOP */}
         <div className='flex flex-col md:flex-row justify-between gap-10 p-24'>
                 {/* LEFT */}
