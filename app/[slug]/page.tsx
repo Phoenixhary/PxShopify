@@ -19,7 +19,6 @@ const SinglePage = async ({ params }: {params: { slug: string } }) => {
   if (!products.items[0]) {
     return notFound();
 
-  
   };
   const product = products.items[0]; 
 

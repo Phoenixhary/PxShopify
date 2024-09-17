@@ -5,10 +5,10 @@ import Image from "next/image";
 import Link from "next/link"
 import Trial from "@/components/Trial";
 import CategoryList from "@/components/CategoryList";
-import { WixClientContext } from "@/context/wixContext";
+// import { WixClientContext } from "@/context/wixContext";
 import { Suspense } from "react";
-import { useWixClient } from "@/hooks/useWixClient";
-import { wixClientServer } from "@/lib/wixClientServer";
+// import { useWixClient } from "@/hooks/useWixClient";
+// import { wixClientServer } from "@/lib/wixClientServer";
 // import { useState } from "react";
 
 const Home = async () => {
